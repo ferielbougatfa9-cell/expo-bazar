@@ -274,13 +274,14 @@ h1 {
 }
 @media (max-width: 768px) {
   .hero-image {
-    height: 55vh;
+    width: 100%;
+    height: auto;
   }
 
   .hero-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
+    display: block;
+    object-fit: contain;
   }
 }
