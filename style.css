@@ -272,3 +272,15 @@ h1 {
   object-fit: contain;
   display: block;
 }
+@media (max-width: 768px) {
+  .hero-image {
+    height: 55vh;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
